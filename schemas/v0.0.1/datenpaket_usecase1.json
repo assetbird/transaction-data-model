@@ -1,0 +1,50 @@
+{
+  "deal": {
+    "dealName": "Demo Deal vERSION 1",
+    "documentDate": "2024-02-23T00:00:00"
+  },
+  "broker": [
+    {
+      "companyName": "JLL",
+      "companyBusinessId": "HRB 123456",
+      "contact": [
+        {
+          "contactName": "John Doe",
+          "contactPhone": "+41234567890",
+          "contactEmail": "john.doe@jll.com",
+          "contactaddress": "Alter Wall 38 20099 Hamburg"
+        }
+      ]
+    }
+  ],
+  "portfolios": [
+    {
+      "portfolioID": "56a5a31b-d850-40e6-a9db-dc26cfcda471",
+      "portfolioName": "Prime Portfolio",
+      "assets": [
+        {
+          "assetID": "56a5a31b-d850-40e6-a9db-dc26cfcda471",
+          "label": "JSON_V1_Before_NDA",
+          "plotArea": 0,
+          "grossBuildingArea": 1278,
+          "originalYearOfConstructionAsYearNumber": 2003,
+          "useTypePrimary": "Retail",
+          "valuationDate": "2024-01-01",
+          "offerDate": "2024-02-01T00:00:00",
+          "annualNetRent": 766800,
+          "address": [
+            {
+              "isMain": true,
+              "fullAddress": "Ferdinandstraße, 61, 20095, Hamburg, DE",
+              "street": "Ferdinandstraße",
+              "buildingNumber": "61",
+              "postalCode": "20095",
+              "city": "Hamburg",
+              "countryIso2": "DE"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

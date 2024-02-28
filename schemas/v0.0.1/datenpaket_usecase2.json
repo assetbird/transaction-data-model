@@ -1,0 +1,78 @@
+{
+  "deal": {
+    "dealName": "Demo DealVERSION 2",
+    "documentDate": "2024-02-23T00:00:00"
+  },
+  "broker": [
+    {
+      "companyName": "JLL",
+      "companyBusinessId": "HRB 123456",
+      "contact": [
+        {
+          "contactName": "John Doe",
+          "contactPhone": "+41234567890",
+          "contactEmail": "john.doe@jll.com",
+          "contactaddress": "Alter Wall 38 20099 Hamburg"
+        }
+      ]
+    }
+  ],
+  "portfolios": [
+    {
+      "portfolioID": "56a5a31b-d850-40e6-a9db-dc26cfcda471",
+      "portfolioName": "Prime Portfolio",
+      "assets": [
+        {
+          "assetID": "56a5a31b-d850-40e6-a9db-dc26cfcda471",
+          "label": "JSON_V2_After_NDA",
+          "plotArea": 10000,
+          "grossBuildingArea": 1278,
+          "originalYearOfConstructionAsYearNumber": 2003,
+          "lastRefurbishmentDate": 2021,
+          "useTypePrimary": "Retail",
+          "valuationDate": "2024-01-01",
+          "offerDate": "2024-02-01T00:00:00",
+          "annualNetRent": 766800,
+          "walt": 10,
+          "vacancy": 0,
+          "address": [
+            {
+              "isMain": true,
+              "fullAddress": "Ferdinandstraße, 61, 20095, Hamburg, DE",
+              "street": "Ferdinandstraße",
+              "buildingNumber": "61",
+              "postalCode": "20095",
+              "city": "Hamburg",
+              "countryIso2": "DE"
+            }
+          ],
+          "rentRoll": [
+            {
+              "contractID": "56a5a31b-d850-40e6-a9db-dc26cfcda471",
+              "tenantID": "56a5a31b-d850-40e6-a9db-dc26cfcda471",
+              "tenantName": "Supermarket",
+              "useTypePrimary": "Retail",
+              "areaID": "56a5a31b-d850-40e6-a9db-dc26cfcda471",
+              "label": "G-01",
+              "floor": 0,
+              "building": 1,
+              "leasedArea": 1000,
+              "lettableArea": 1000,
+              "leasedUnits":  1,
+              "lettableUnits": 1,
+              "unitType": "m²",
+              "contractualRentPerSqm": 50,
+              "currencyIso3": "EUR",
+              "contractualRent": 50000,
+              "contractualRentPerYear": 600000,
+              "isVatLiable": true,
+              "leaseBeginDate": "2017-09-01",
+              "leaseEndDate": "2027-08-31",
+              "isVacant": false
+               }
+          ]
+        }
+      ]
+    }
+  ]
+}
