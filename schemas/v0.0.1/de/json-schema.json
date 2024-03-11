@@ -278,6 +278,37 @@
                   ],
                   "type": "number"
                 },
+                "location": {
+                  "title": "",
+                  "description": "",
+                  "examples": [
+                    ""
+                  ],
+                  "additionalProperties": false,
+                  "type": "object",
+                  "properties": {
+                    "latitude": {
+                      "title": "Geografische Breite",
+                      "description": "Geografische Breite zusammen mit der geogrfischen Länge bestimmt die Koordinaten des Objekts",
+                      "examples": [
+                        51.50873
+                      ],
+                      "type": "number"
+                    },
+                    "longitude": {
+                      "title": "Geographische Länge",
+                      "description": "Geografische Länge zusammen mit der geogrfischen Breite bestimmt die Koordinaten des Objekts",
+                      "examples": [
+                        -0.14092
+                      ],
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "latitude",
+                    "longitude"
+                  ]
+                },
                 "address": {
                   "title": "",
                   "description": "",
@@ -2232,6 +2263,24 @@
                       "leaseEndDate": {
                         "title": "Mietende",
                         "description": "Gibt das vertraglich vereinbarte Enddatum der Nutzung des Informationsobjektes ohne Berücksichtigung vereinbarter mietfreier Zeiten an",
+                        "examples": [
+                          "2027-09-01"
+                        ],
+                        "type": "string",
+                        "pattern": "^\\d\\d\\d\\d-[0-1]\\d-[0-3]\\d$"
+                      },
+                      "rentFreeBeginDate": {
+                        "title": "Begin der mietfreie Zeit",
+                        "description": "Gibt das vertraglich festgelegte Anfangsdatum der mietfreie Zeit an",
+                        "examples": [
+                          "2017-09-01"
+                        ],
+                        "type": "string",
+                        "pattern": "^\\d\\d\\d\\d-[0-1]\\d-[0-3]\\d$"
+                      },
+                      "rentFreeEndData": {
+                        "title": "Ende der mietfreie Zeit",
+                        "description": "Gibt das vertraglich festgelegte Enddatum der mietfreie Zeit an",
                         "examples": [
                           "2027-09-01"
                         ],
