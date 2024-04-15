@@ -5,6 +5,49 @@
   "additionalProperties": false,
   "type": "object",
   "properties": {
+    "objectIdReceiver": {
+      "title": "",
+      "description": "",
+      "examples": [
+        "LiegenschaftsnummerDesEmpfängers"
+      ],
+      "type": "string"
+    },
+    "DocType": {
+      "const": "EXPOSE",
+      "type": "string",
+      "title": "",
+      "description": "",
+      "examples": [
+        "EXPOSE"
+      ]
+    },
+    "Doc_Date": {
+      "title": "",
+      "description": "",
+      "examples": [
+        "2023-11-14"
+      ],
+      "type": "string",
+      "pattern": "^\\d\\d\\d\\d-[0-1]\\d-[0-3]\\d$"
+    },
+    "Doc_Partner": {
+      "title": "",
+      "description": "",
+      "examples": [
+        "MAKLER"
+      ],
+      "type": "string"
+    },
+    "Valid_Until": {
+      "title": "",
+      "description": "",
+      "examples": [
+        "2033-11-01"
+      ],
+      "type": "string",
+      "pattern": "^\\d\\d\\d\\d-[0-1]\\d-[0-3]\\d$"
+    },
     "deal": {
       "title": "",
       "description": "",
