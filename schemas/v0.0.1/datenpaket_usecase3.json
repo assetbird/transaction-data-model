@@ -44,9 +44,7 @@
               "postalCode": "20095",
               "city": "Hamburg",
               "countryIso2": "DE"
-            }
-          ],
-          "address": [
+            },
             {
               "isMain": false,
               "fullAddress": "Gertrudenstraße, 9, 20095, Hamburg, DE",

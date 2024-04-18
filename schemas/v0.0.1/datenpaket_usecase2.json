@@ -58,7 +58,7 @@
               "building": 1,
               "leasedArea": 1000,
               "lettableArea": 1000,
-              "leasedUnits":  1,
+              "leasedUnits": 1,
               "lettableUnits": 1,
               "unitType": "m²",
               "contractualRentPerSqm": 50,
@@ -69,7 +69,7 @@
               "leaseBeginDate": "2017-09-01",
               "leaseEndDate": "2027-08-31",
               "isVacant": false
-               }
+            }
           ]
         }
       ]
