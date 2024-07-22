@@ -206,7 +206,7 @@
           "portfolioPrice": {
             "title": "Angebotspreis",
             "description": "Gesamtpreis des Angebots. Bei Portfolioverkauf ist es der Gesamtpreis des Portfolios. Bei Einzelverkauf ist es der Preis des Assets.",
-            "$ref": "#/definitions/price",
+            "$ref": "#/$defs/price",
             "example": {
               "value": 1000000,
               "currency": "EUR"
@@ -270,7 +270,7 @@
                 "assetPrice": {
                   "title": "Asset Preis",
                   "description": "Der Preis für das einzelne Asset. Nur bei Einzelverkauf relevant.",
-                  "$ref": "#/definitions/price",
+                  "$ref": "#/$defs/price",
                   "example": {
                     "value": 5000000,
                     "currency": "EUR"
@@ -1580,7 +1580,7 @@
                         "examples": [
                           "EUR"
                         ],
-                        "$ref": "#/definitions/currencyIso3"
+                        "$ref": "#/$defs/currencyIso3"
                       },
                       "contractualRentPerUnit": {
                         "title": "Nettomiete pro Einheit",
@@ -1791,7 +1791,7 @@
     "deal",
     "portfolios"
   ],
-  "definitions": {
+  "$defs": {
     "price": {
       "title": "Der Kaufpreis und die Währung des Angebots.",
       "type": "object",
@@ -1806,7 +1806,7 @@
           "title": "Währung",
           "description": "Die Währung des Preises als ISO 4217 Code.",
           "example": "EUR",
-          "$ref": "#/definitions/currencyIso3"
+          "$ref": "#/$defs/currencyIso3"
         }
       }
     },
